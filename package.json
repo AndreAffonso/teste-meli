@@ -9,7 +9,7 @@
     "server": "node ./app.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "setup": "npm run i  && npm run client-install && npm run dev",
+    "setup": "npm  install  && npm run client-install && npm run dev",
     "test": "newman run ./tests/api-tests.postman.json -e ./tests/env-api-tests.postman.json",
     "stop": "lsof -ti :3000 | xargs kill"
   },
