@@ -1,0 +1,1 @@
+const convertPrice = price = `$ ${price.amount} ${price.}`
