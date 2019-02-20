@@ -16,4 +16,8 @@ export const Nav = styled.nav`
   ${media.tablet`
     padding: 0 ${dimens.defaultSpace}px;
   `};
+
+  a {
+    margin-right: ${dimens.defaultSpace}px;
+  }
 `;

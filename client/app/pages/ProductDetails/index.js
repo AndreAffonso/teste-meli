@@ -64,6 +64,12 @@ const ProductDetails = ({
   );
 };
 
-ProductDetails.propTypes = {};
+ProductDetails.propTypes = {
+  onGetProductDetails: PropTypes.func,
+  onCleanProductDetails: PropTypes.func,
+  onCleanCategories: PropTypes.func,
+  product: PropTypes.object,
+  isLoading: PropTypes.bool
+};
 
 export default compose(data)(ProductDetails);

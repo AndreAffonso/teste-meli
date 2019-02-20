@@ -11,7 +11,7 @@ const Navbar = React.memo(({ searchMatchedItems }) => (
   <Nav>
     <Link to={routes.HOME}>
       <Logo />
-    </Link>{' '}
+    </Link>
     <Searchbar onSubmit={searchMatchedItems} />
   </Nav>
 ));

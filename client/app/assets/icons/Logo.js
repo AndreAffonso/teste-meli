@@ -5,19 +5,19 @@ const Logo = React.memo(({ fill, height, width }) => {
   const styles = {
     svg: {
       height,
-      width,
+      width
     },
     path: {
-      fill,
+      fill
     },
 
     st1: {
-      fill: '#fde600',
+      fill: '#fde600'
     },
 
     st2: {
-      fill: '#fdfdfe',
-    },
+      fill: '#fdfdfe'
+    }
   };
   return (
     <svg
@@ -65,13 +65,13 @@ const Logo = React.memo(({ fill, height, width }) => {
 Logo.propTypes = {
   fill: PropTypes.string,
   height: PropTypes.string,
-  width: PropTypes.string,
+  width: PropTypes.string
 };
 
 Logo.defaultProps = {
   fill: '#20307a',
-  height: '120px',
-  width: '120px',
+  height: '58x',
+  width: '58px'
 };
 
 export default Logo;
