@@ -75,7 +75,6 @@ router.get('/:id', function(req, res, next) {
     getProductById(req.params.id).then(response => {
       dataToSend = response.data;
       getDescriptionById(req.params.id).then(descriptionResponse => {
-        console.log(' => ', descriptionResponse.data);
         dataToSend.description =
           descriptionResponse.data && descriptionResponse.data.plain_text;
         res.json(createProductDetailsData(dataToSend));
