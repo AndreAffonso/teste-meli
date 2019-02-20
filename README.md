@@ -2,9 +2,9 @@
 
 This Repository contains a challenge proposed by the recruiting team from [Mercado Libre](https://mercadolibre.com). Feel Free to clone it and use as you wish.
 
-- The server-side structure was bootstrapped with [Real World App](<(https://github.com/gothinkster/node-express-realworld-example-app)>).
+- The server-side structure was bootstrapped with [Real World App](https://github.com/gothinkster/node-express-realworld-example-app).
 
-- The client-side project was bootstrapped with [React Boilerplate](<[https://github.com/facebookincubator/create-react-app](https://github.com/react-boilerplate/react-boilerplate)>).
+- The client-side project was bootstrapped with [React Boilerplate](https://github.com/react-boilerplate/react-boilerplate).
 
 Other great react boilerplates that inspired me:
 
