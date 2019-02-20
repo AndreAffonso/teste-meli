@@ -103,5 +103,6 @@ export const DescriptionContent = styled.p`
 
   ${media.phone`
     width: 100%;
+    word-break: break-word;
   `};
 `;
